@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+	
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<title>Contact Me</title>
+		<link href="css/stylesheet.css" rel="stylesheet">
+		<link href="css/normalize.css" rel="stylesheet">
+		<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+	</head>
+
+<body>
+	<div id="wrapper">
+	
+    <header class="banner">
+		<h1>CI435 Project</h1>
+		<h2>Contact Me</h2>
+	</header>
+	
+    <nav class="menu">
+	<ul id="menulist">
+		<li><a href="index.html">Learning Journal</a></li>
+		<li><a href="tutorial.html">Tutorial</a></li>
+        <li><strong>Contact Me</strong></li>
+	</ul>
+	</nav>
+    
+    <main>
+		<div id="form">
+		<form id="form1"> 
+			<fieldset>
+			<legend>Enter your contact details</legend>
+			<label for="fname">Forename <em>(Required)</em></label>
+			<input type="text" id="fname" required placeholder="Forename">
+			<label for="sname">Surname <em>(Required)</em></label>
+			<input type="text" id="sname" required placeholder="Surname">
+			<label for="email">Email address <em>(Required)</em></label>
+			<input type="text" id="email" required>
+			</fieldset>
+		</form>
+		<fieldset>
+			<legend>Enter your date of birth</legend>
+			<label for="date">Date of birth:</label>
+			<input id="date" type="date">
+		</fieldset>
+		<fieldset>
+			<legend>Leave a message</legend>
+			<label for="message">Write your message: </label>
+			<textarea id="message" required></textarea>
+		</fieldset>
+		<fieldset>
+			<legend>Would you like more information?</legend>
+			<label for="information-yes">
+			  <input type="radio" id="information-yes" 
+			  name="information" value="yes">Yes please</label>
+			<label for="information-no">
+			  <input type="radio" id="information-no" 
+			  name="information" value="no" checked >No thanks</label>
+			</fieldset>
+			<input type="submit" value="Click here to send">
+		</div>
+    </main>
+	<footer>
+		<small>&copy; 2023, Matthew Hadley.</small>
+		<a href="mailto:M.Hadley2@uni.brighton.ac.uk">Contact: <strong>Matthew Hadley</strong></a>
+	</footer>
+	</div>
+</body>
+</html>
